@@ -33,7 +33,7 @@ document.querySelector('button').addEventListener('click', () => {
         document.getElementById('row8').textContent = 'Dinner';
         document.getElementById('row9').textContent = 'Sleep';
 
-        currentLanguage = 'fi';
+        currentLanguage = 'en';
     }
     else if (currentLanguage === 'fi') {
         document.getElementById('heading').textContent = 'Tämä on Arkielämäni Kesälomalla';
