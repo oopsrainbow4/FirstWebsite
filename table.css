@@ -1,0 +1,17 @@
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+}
+
+th {font-size: 20px;
+    padding: 8px 10px;}
+
+td{font-size: 18px;
+    padding: 8px 10px;}
+
+.middle-section {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
