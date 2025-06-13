@@ -18,7 +18,7 @@ document.querySelector('button').addEventListener('click', () => {
 
         currentLanguage = 'vn';
     }
-    else if (currentLanguage === 'vn') {
+    else if (currentLanguage === 'fi') {
         document.getElementById('heading').textContent = 'This is My Daily Life during Summer holiday';
         document.getElementById('title').textContent = 'Hi, this is my first website from VScode';
         document.getElementById('time').textContent = 'Time';
@@ -35,7 +35,7 @@ document.querySelector('button').addEventListener('click', () => {
 
         currentLanguage = 'en';
     }
-    else if (currentLanguage === 'fi') {
+    else if (currentLanguage === 'vn') {
         document.getElementById('heading').textContent = 'Tämä on Arkielämäni Kesälomalla';
         document.getElementById('title').textContent = 'Hei, tämä on minun ensimmäinen verkkosivuni VScodessa.';
         document.getElementById('time').textContent = 'Aika';
@@ -50,6 +50,6 @@ document.querySelector('button').addEventListener('click', () => {
         document.getElementById('row8').textContent = 'Illallinen';
         document.getElementById('row9').textContent = 'Nukkuminen';
 
-        currentLanguage = 'en';
+        currentLanguage = 'fi';
     }
 });
